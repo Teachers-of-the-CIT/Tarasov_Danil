@@ -1,0 +1,8 @@
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\TarasovDE.csproj.AssemblyReference.cache
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\TarasovDE.csproj.SuggestedBindingRedirects.cache
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\MainWindow.g.cs
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\Open_window.g.cs
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\Reg_Window.g.cs
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\App.g.cs
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\TarasovDE_MarkupCompile.cache
+C:\Users\Данил\Source\Repos\Tarasov_Danil_NEW\TarasovDE\TarasovDE\obj\Debug\TarasovDE_MarkupCompile.lref

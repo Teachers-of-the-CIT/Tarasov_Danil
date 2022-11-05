@@ -1,0 +1,34 @@
+﻿<Window x:Class="DE_Tarasov.edit_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DE_Tarasov"
+        mc:Ignorable="d"
+        Title="edit_window" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="63*"/>
+            <RowDefinition Height="115*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="77*"/>
+            <ColumnDefinition Width="83*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content ="Введите нзвание:: " FontFamily=" Candara" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBox Name="tbName" Height="50" Width="350" Grid.Column="1"/>
+        <Label Content ="Введите производителя: " FontFamily=" Candara" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" />
+        <TextBox Name="tbProizvod" Height="50" Width="350" Grid.Column="1" Grid.Row="1"/>
+        <Label Content ="Введите описание: " FontFamily=" Candara" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2"/>
+        <TextBox Name="tbDiscript" Height="50" Width="350" Grid.Column="1" Grid.Row="2"/>
+        <Label Content ="Введите Цену: " FontFamily=" Candara" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="3" />
+        <TextBox Name="tbPrice" Height="50" Width="350" Grid.Column="1" Grid.Row="3"/>
+        <Label Content ="Введите Скидку: " FontFamily=" Candara" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="4" />
+        <TextBox Name="tbDicont" Height="50" Width="350" Grid.Column="1" Grid.Row="4"/>
+        <Button Name="btnSave" Content="Сохранить" Grid.Row="6" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
