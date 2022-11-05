@@ -1,0 +1,39 @@
+﻿<Window x:Class="DE_Tarasov.open_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DE_Tarasov"
+        mc:Ignorable="d"
+        Title="open_window" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="383*"/>
+            <RowDefinition Height="51*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Name="dgProduct" IsReadOnly="False" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Картинка">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="/picture.png" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Название товара" Binding = "{Binding name}"/>
+                <DataGridTextColumn Header="Производитель" Binding = "{Binding proizvod}"/>
+                <DataGridTextColumn Header="Описание товара" Binding = "{Binding dictionary}"/>
+                <DataGridTextColumn Header="Цена" Binding = "{Binding Price}"/>
+                <DataGridTextColumn Header="Размер скидки" Binding = "{Binding discont}"/>
+                <DataGridTemplateColumn Header="Изменить">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Name="btnEdit" Click="btnEdit_Click"/>
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Name="btnEdit" Grid.Row="1" Content="Удалить" Click="btnRemove_Click"/>
+    </Grid>
+</Window>
